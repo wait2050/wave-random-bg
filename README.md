@@ -1,8 +1,16 @@
-# 🌊 Wave Random BG
+# 🌊 Wave Random BG · 波浪终端随机背景
+
+[![English](https://img.shields.io/badge/docs-English-blue)](README.md)
+[![中文文档](https://img.shields.io/badge/文档-中文-red)](README_zh.md)
+![platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux-lightgrey)
+![shell](https://img.shields.io/badge/shell-zsh-yellow)
+![license](https://img.shields.io/badge/license-MIT-green)
+
+**Wave 终端** | **随机背景图** | **零延迟** | **波浪终端美化**
 
 Zero-latency random background images for [Wave Terminal](https://www.waveterm.dev/) tabs.
 
-Each new tab gets a random image from your collection, applied instantly — before the shell prompt even appears.
+每次新建标签页自动随机背景图，Shell 出现前已渲染完成。
 
 ## How it works
 
@@ -89,6 +97,12 @@ export WAVE_BG_DIR="$HOME/Pictures/wallpapers"
 - **New images**: re-run `wave-gen-presets.sh` after adding/removing images
 - **Cache warming**: optional, run `wave-cache-warmer.sh` after first install
 
-## License
+## Acknowledgments · 致谢
+
+Built with the assistance of [Claude](https://claude.ai) and [DeepSeek](https://deepseek.com).
+
+本项目由 Claude 与 DeepSeek 共同协助完成。
+
+## License · 许可证
 
 MIT
